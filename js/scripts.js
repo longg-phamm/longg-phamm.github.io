@@ -58,6 +58,7 @@ function switch_MHSecretPage(){
     const messages = ["Wrong password hahahahaahhaha", "BROOOO?", "HUH?", "bb youv got this lets go", "Dont give up now :(", "almos there almost there ... KIDDING", "What could the password be hmmmm",
                       "bb princess boo boo come on!", "co len!", "Himmat mut haaro bb <3 <3"]
     if (document.getElementById("password").value == "0909"){
+        alert("Hey bb booo princess, congrats on finding the password! I made this hoping that it would make your day :) and I hope you had a fun time. I care alot about you bb :) \n I <3 you")
         window.location.href = "pages/flowers/HookedOnAFeeling.html";
     }
     else{
