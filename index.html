@@ -163,7 +163,64 @@
         <!-- Footer-->
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Long Pham </small></div>
+            <div class="container">
+                <ul style="display: inline-block;list-style: none"                ">
+                    <li>Copyright </li>
+                    
+                    <!-- <small onclick="secretpage_MN()""> &copy; </small> -->
+                    <li> 
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#pwdModal">
+                        <!-- <a style = "text-decoration: none;" href="#" data-target="#pwdModal" data-toggle="modal">Forgot my password</a> -->
+                        <small>&copy;</small>
+                        </div>
+                    </li>
+                   
+
+                    <li>Long Pham</li>
+                </ul>
+                    
+            </div>
+        </div>
+        <!-- Prompt Secret Page Password-->
+        <div class="portfolio-modal modal fade" id="pwdModal" tabindex="-1" aria-labelledby="pwdModal" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Secret Entrance Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Secret Entrance</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Congratulations! You have found the "Secret Entrance"</p>
+                                    <p class="mb-4">This is meant to be for the person I hold dear to my heart and my motivation to work hard. Please answer this riddle</p>
+
+                                    <i class="mb-4">We stopped longing for the far future, and started embracing the present moment </p>
+                                    <div class="input-group mb-3">
+                                            <input id ="password" type="text" class="form-control" placeholder="4 digit number password" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick="switch_MHSecretPage()">Enter</button>
+                                    </div>
+
+                                    <mark></mark>
+
+
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->

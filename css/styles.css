@@ -173,6 +173,17 @@ address {
   line-height: inherit;
 }
 
+ul{
+  margin: 0;
+  display: inline;
+}
+
+li {
+  border: 0x solid black;
+  margin: 0;
+  display: inline-block;
+}
+
 ol,
 ul {
   padding-left: 2rem;

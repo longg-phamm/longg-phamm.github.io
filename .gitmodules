@@ -1,0 +1,3 @@
+[submodule "pages/flowers"]
+	path = pages/flowers
+	url = https://github.com/jeycaarce/flowers.git

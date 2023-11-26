@@ -52,3 +52,14 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function switch_MHSecretPage(){
+    if (document.getElementById("password").value == "0909"){
+        window.location.href = "pages/flowers/HookedOnAFeeling.html";
+    }
+    else{
+        alert("Wrong password hahahahaahhaha");
+    }
+}
+
+
