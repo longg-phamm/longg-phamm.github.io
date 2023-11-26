@@ -54,11 +54,14 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 function switch_MHSecretPage(){
+
+    const messages = ["Wrong password hahahahaahhaha", "BROOOO?", "HUH?", "bb youv got this lets go", "Dont give up now :(", "almos there almost there ... KIDDING", "What could the password be hmmmm",
+                      "bb princess boo boo come on!", "co len!", "Himmat mut haaro bb <3 <3"]
     if (document.getElementById("password").value == "0909"){
         window.location.href = "pages/flowers/HookedOnAFeeling.html";
     }
     else{
-        alert("Wrong password hahahahaahhaha");
+        alert(messages[Math.floor(Math.random()*messages.length)]);
     }
 }
 
