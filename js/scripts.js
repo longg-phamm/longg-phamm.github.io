@@ -56,10 +56,14 @@ window.addEventListener('DOMContentLoaded', event => {
 function switch_MHSecretPage(){
 
     const messages = ["Wrong password hahahahaahhaha", "BROOOO?", "HUH?", "bb youv got this lets go", "Dont give up now :(", "almos there almost there ... KIDDING", "What could the password be hmmmm",
-                      "bb princess boo boo come on!", "co len!", "Himmat mut haaro bb <3 <3"]
+                      "bb princess boo boo come on!", "co len!", "Himmat mut haaro bb <3 <3", "bbbb you got this come on now you acc forgot????", "My bbb is the besssttttt, the GREATEST", "CALGARY IS FUCKING LUKCY TO HAVE YOU, BUT IMMA STEAL YOU FROM IT ANWSS", "hehehe my bbb so cute, trying to crack the password hehehe so cute", "Damn bb had you listened to me and started learning coding you could have crack the pw already hehehe"]
     if (document.getElementById("password").value == "0909"){
         alert("Hey bb booo princess, congrats on finding the password! I made this hoping that it would make your day :) and I hope you had a fun time. I care alot about you bb :) \n I <3 you")
         window.location.href = "pages/flowers/HookedOnAFeeling.html";
+    }
+    if (document.getElementById("password").value == "2404"){
+        alert("Hey bb booo princess, congrats on finding the password! This is for you my bbbbb girl, I love you alot. Happy Mahas day, although everyday is Mahas day heheheh <3")
+        window.location.href = "pages/Draw-flowers-with-cursor-main/index.html";
     }
     else{
         alert(messages[Math.floor(Math.random()*messages.length)]);
